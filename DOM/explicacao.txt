@@ -1,0 +1,51 @@
+DOM
+
+Formas de selecionar arquivo Web
+Temos várias formas, como por exemplo
+
+*Marca
+   |
+   --> getElementsByTagName("p") seleciona todos os p(parágrafos) do documento, para que não ocorra usamos:
+
+       getElementsByTagName("p")[0] Assim selecionamos apenas o 1° p, assim por diante
+
+*  ID
+    |
+    --> getElementById()  funciona exatamente como o anterior, porém consegue filtrar pelo id 
+
+* Nome
+    |
+    --> getElementsByName() Busca através do name 
+
+*Classe
+    |
+    --> getElementsByClass() Busca através das classes do CSS
+
+*Seletor
+    |
+    --> Forma mais nova é mais recomendável
+    |
+    -->document.querySelector("div#msg")
+                                | | |
+                                | | --> id a ser selecionado
+                                | |
+                                | --> simbólo de id, caso            |     selecionasse por classe seria  |     ' . '
+                                |
+                                --> seleciona a Marca
+
+
+
+--> Eventos Buscar no Event reference (Mozila)
+
+--> Funções
+
+    function ação(){
+        
+        
+    }
+
+    --> Arrow functions:
+
+        const ação = () => {
+            
+        }

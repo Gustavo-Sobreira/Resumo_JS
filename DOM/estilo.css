@@ -1,0 +1,56 @@
+div{
+
+    font: normal 15px Arial;
+    color: aliceblue;
+
+    background-color: blue;
+    
+    width: 200px;
+    height: 200px;
+
+    line-height: 200px; /*Centralizar na altura */
+    text-align: center; /*Centralizar na largura*/
+}
+
+.crica{
+
+    font: normal 15px Arial;
+    color: aliceblue;
+
+    background-color: rgb(211, 27, 27);
+    
+    width: 200px;
+    height: 200px;
+
+    line-height: 200px; /*Centralizar na altura */
+    text-align: center; /*Centralizar na largura*/
+}
+
+.entro{
+
+    font: normal 15px Arial;
+    color: aliceblue;
+
+    background-color: blue;
+    
+    width: 300px;
+    height: 300px;
+
+    line-height: 300px; /*Centralizar na altura */
+    text-align: center; /*Centralizar na largura*/
+}
+
+.sai{
+
+    font: normal 15px Arial;
+    color: aliceblue;
+
+    background-color: blue;
+    
+    width: 200px;
+    height: 200px;
+
+    line-height: 200px; /*Centralizar na altura */
+    text-align: center; /*Centralizar na largura*/
+
+}
